@@ -1,1 +1,6 @@
 # GEOHg
+一些关于研究生期间“全球野火汞排放与传输”研究的核心代码存档
+其中，mercury_emission.m文件与Monte_Carlo.m文件分别为EST文章“Global Mercury Emissions from Open Biomass Burning Estimated Using a Mass-Balance Approach”的排放估算模型核心代码和不确定性分析代码
+mercury_emission_new.m为在原排放计算的基础上修改数据源和处理方法能让排放清单延伸至2024年
+GEOSChem_Output.m为处理分析GEOS-Chem模拟大气汞浓度和干湿沉降的代码
+Observation_validation为处理分析北美大气汞监测站点数据并与模型模拟匹配
